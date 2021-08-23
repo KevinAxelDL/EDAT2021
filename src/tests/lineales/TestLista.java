@@ -1,0 +1,130 @@
+
+package tests.lineales;
+import lineales.dinamicas.Lista;
+
+public class TestLista {
+    public static void main(String[]args){
+        //Test de TDA Lista (dinamica)
+        Lista lista = new Lista(), listaClon;
+        
+        System.out.println("/////INCIO TEST/////");
+        System.out.println("Estado de Lista: []");
+        System.out.println("toString: "+lista.toString());
+        System.out.println("esVacia: "+lista.esVacia());
+        System.out.println("vaciar: "+lista.vaciar());
+        System.out.println("toString: "+lista.toString());
+        System.out.println("----------");
+        System.out.println("Estado de cola: []");
+        System.out.println("insertar(1 en 1): "+lista.insertar(1,1));
+        System.out.println("insertar(2 en 2): "+lista.insertar(2,2));
+        System.out.println("insertar(3 en 3): "+lista.insertar(3,3));
+        System.out.println("insertar(4 en 4): "+lista.insertar(4,4));
+        System.out.println("insertar(5 en 5): "+lista.insertar(5,5));
+        System.out.println("insertar(6 en 6): "+lista.insertar(6,6));
+        System.out.println("insertar(7 en 7): "+lista.insertar(7,7));
+        System.out.println("insertar(8 en 8): "+lista.insertar(8,8));
+        System.out.println("insertar(9 en 9): "+lista.insertar(9,9));
+        System.out.println("insertar(10 en 10): "+lista.insertar(10,10));
+        System.out.println("Longitud lista: "+ lista.longitud());
+        System.out.println("lista toString: "+ lista.toString());
+        System.out.println("Clona lista actual"); 
+        listaClon = lista.clone();
+        System.out.println("Elimina el elemento en posicion 0:"+lista.eliminar(0));
+        System.out.println("Elimina el elemento en posicion 20:"+lista.eliminar(20));
+        System.out.println("lista toString: "+ lista.toString());
+        System.out.println("Elimina el elemento en posicion 5:"+lista.eliminar(5));
+        System.out.println("Elimina el elemento en posicion 5:"+lista.eliminar(5));
+        System.out.println("lista toString: "+ lista.toString());
+        System.out.println("Elimina el elemento en posicion 1:"+lista.eliminar(1));
+        System.out.println("Elimina el elemento en posicion 1:"+lista.eliminar(1));
+        System.out.println("lista toString: "+ lista.toString());
+        System.out.println("Elimina el elemento en posicion 10:"+lista.eliminar(10));
+        System.out.println("Elimina el elemento en posicion 1:"+lista.eliminar(1));
+        System.out.println("Elimina el elemento en posicion 5:"+lista.eliminar(5));
+        System.out.println("lista toString: "+ lista.toString());
+        System.out.println("Longitud lista: "+ lista.longitud());
+        System.out.println("insertar(1 en 5): "+lista.insertar(1,5));
+        System.out.println("insertar(1 en 6): "+lista.insertar(1,6));
+        System.out.println("insertar(1 en 1): "+lista.insertar(1,1));
+        System.out.println("insertar(1 en 1): "+lista.insertar(1,1));
+        System.out.println("lista toString: "+ lista.toString());
+        System.out.println("Longitud lista: "+ lista.longitud());
+        System.out.println("Elimina el elemento en posicion 1:"+lista.eliminar(1));
+        System.out.println("Elimina el elemento en posicion 1:"+lista.eliminar(1));
+        System.out.println("Elimina el elemento en posicion 6:"+lista.eliminar(6));
+        System.out.println("lista toString: "+ lista.toString());
+        System.out.println("Longitud lista: "+ lista.longitud());
+        System.out.println("esVacia: "+lista.esVacia());
+        System.out.println("Localizar 10: "+ lista.localizar(10));
+        System.out.println("Localizar 1: "+ lista.localizar(1));
+        System.out.println("Localizar 4: "+ lista.localizar(4));
+        System.out.println("Recuperar en 20: "+ lista.recuperar(20));
+        System.out.println("Recuperar en 0: "+ lista.recuperar(0));
+        System.out.println("Recuperar en 5: "+ lista.recuperar(5));
+        System.out.println("Recuperar en 1: "+ lista.recuperar(1));
+        System.out.println("/////CLONE/////");
+        System.out.println("lista toString: "+ lista.toString());
+        System.out.println("lista CLON toString: "+ listaClon.toString());
+        System.out.println("");
+        System.out.println("Se realizaran al clon las mismas operaciones que a la"
+                + "\nlista original desde que fue clonada, el resultado debe ser "
+                + "\nel mismo:");
+        System.out.println("");
+        System.out.println("Elimina el elemento en posicion 0:"+listaClon.eliminar(0));
+        System.out.println("Elimina el elemento en posicion 20:"+listaClon.eliminar(20));
+        System.out.println("lista toString: "+ listaClon.toString());
+        System.out.println("Elimina el elemento en posicion 5:"+listaClon.eliminar(5));
+        System.out.println("Elimina el elemento en posicion 5:"+listaClon.eliminar(5));
+        System.out.println("lista toString: "+ listaClon.toString());
+        System.out.println("Elimina el elemento en posicion 1:"+listaClon.eliminar(1));
+        System.out.println("Elimina el elemento en posicion 1:"+listaClon.eliminar(1));
+        System.out.println("lista toString: "+ listaClon.toString());
+        System.out.println("Elimina el elemento en posicion 10:"+listaClon.eliminar(10));
+        System.out.println("Elimina el elemento en posicion 1:"+listaClon.eliminar(1));
+        System.out.println("Elimina el elemento en posicion 5:"+listaClon.eliminar(5));
+        System.out.println("lista toString: "+ listaClon.toString());
+        System.out.println("Longitud lista: "+ listaClon.longitud());
+        System.out.println("insertar(1 en 5): "+listaClon.insertar(1,5));
+        System.out.println("insertar(1 en 6): "+listaClon.insertar(1,6));
+        System.out.println("insertar(1 en 1): "+listaClon.insertar(1,1));
+        System.out.println("insertar(1 en 1): "+listaClon.insertar(1,1));
+        System.out.println("lista toString: "+ listaClon.toString());
+        System.out.println("Longitud lista: "+ listaClon.longitud());
+        System.out.println("Elimina el elemento en posicion 1:"+listaClon.eliminar(1));
+        System.out.println("Elimina el elemento en posicion 1:"+listaClon.eliminar(1));
+        System.out.println("Elimina el elemento en posicion 6:"+listaClon.eliminar(6));
+        System.out.println("lista toString: "+ listaClon.toString());
+        System.out.println("Longitud lista: "+ listaClon.longitud());
+        System.out.println("esVacia: "+listaClon.esVacia());
+        System.out.println("Localizar 10: "+ listaClon.localizar(10));
+        System.out.println("Localizar 1: "+ listaClon.localizar(1));
+        System.out.println("Localizar 4: "+ listaClon.localizar(4));
+        System.out.println("Recuperar en 20: "+ listaClon.recuperar(20));
+        System.out.println("Recuperar en 0: "+ listaClon.recuperar(0));
+        System.out.println("Recuperar en 5: "+ listaClon.recuperar(5));
+        System.out.println("Recuperar en 1: "+ listaClon.recuperar(1));
+        System.out.println("RESULTADO:");
+        System.out.println("lista toString: "+ lista.toString());
+        System.out.println("Longitud lista: "+ lista.longitud());
+        System.out.println("esVacia: "+lista.esVacia());
+        System.out.println("Localizar 10: "+ lista.localizar(10));
+        System.out.println("Localizar 1: "+ lista.localizar(1));
+        System.out.println("Localizar 4: "+ lista.localizar(4));
+        System.out.println("---");
+        System.out.println("lista CLON toString: "+ listaClon.toString());
+        System.out.println("Longitud lista CLON: "+ listaClon.longitud());
+        System.out.println("esVacia: "+listaClon.esVacia());
+        System.out.println("Localizar 10: "+ listaClon.localizar(10));
+        System.out.println("Localizar 1: "+ listaClon.localizar(1));
+        System.out.println("Localizar 4: "+ listaClon.localizar(4));
+        //----------------------------------------------------------------------
+        System.out.println("/////obtenerMultiplos/////");
+        System.out.println(listaClon.toString());
+        System.out.println("Multiplos de 2: " + listaClon.obtenerMultiplos(2).toString());
+        System.out.println("Multiplos de 0: " + listaClon.obtenerMultiplos(0).toString());
+        System.out.println("Multiplos de 1: " + listaClon.obtenerMultiplos(1).toString());
+        System.out.println("Multiplos de 6: " + listaClon.obtenerMultiplos(6).toString());
+        System.out.println("Multiplos de 3: " + listaClon.obtenerMultiplos(3).toString());
+    }
+    
+}
