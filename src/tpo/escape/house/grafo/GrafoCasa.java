@@ -25,7 +25,7 @@ public class GrafoCasa {
         */
         NodoVertCuarto nodoBus;
         boolean exito = false;
-        
+            //SFKNMASdfjohnasdfujiobased
         if(inicio == null){
             //Grafo vacio
             NodoVertCuarto newNodo = new NodoVertCuarto();
