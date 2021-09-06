@@ -1,23 +1,22 @@
 # EDAT2021 
-Ejercicios y estructuras dearrolladas durante el cursado de la materia en el año 2021. 
+Ejercicios y estructuras desarrolladas durante el cursado de la materia en el año 2021. 
 Algunos de los 'tests' de las  estructuras han sido desarrollados por la catedra.
 ***
 ## Lineales
-### Estaticas
+### Estáticas
 - Cola
 - Pila
-### Dinamicas
+### Dinámicas
 - Cola
 - Lista
 - Pila
-## Jerarquicas
-- Arbol binario
-- Arbol generico
+## Jerárquicas
+- Árbol binario
+- Árbol genérico
 ## Conjuntistas
-- Arbol AVL
-- Arbol BB
-- Arbol HEAP
-
+- Árbol AVL
+- Árbol BB
+- Árbol HEAP
 
 
 
