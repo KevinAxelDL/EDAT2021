@@ -1,6 +1,5 @@
 # EDAT2021 
-
-Ejercicios y estructuras dearrolladas durante el crusado de la materia en el año 2021. 
+Ejercicios y estructuras dearrolladas durante el cursado de la materia en el año 2021. 
 Algunos de los 'tests' de las  estructuras han sido desarrollados por la catedra.
 ***
 ## Lineales
